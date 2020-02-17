@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>Thermendo</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+	<style>
+		/* Make the image fully responsive */
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="jumbotron text-center" >
+		<h3 class = "display-2" style=" margin-top: -50px;">Thermendo</h3>
+
+		<div class="col-sm-8 offset-md-2">
+			<h4>
+				<small>
+					 add explaintion for Thermendo here
+
+				</small>
+			</h4>
+		</div>
+
+	</div>
+	<div class="col-sm-4" style="margin-left: 650px; margin-top: -80px;">
+		<button class="button button1" data-toggle="modal" data-target="#myModal">
+Merged Image
+		</button>
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog modal-xl modal-dialog-scrollable">
+
+				<!-- Modal content-->
+				<div class="modal-content col-sm-5" style="margin-left: 300px">
+					<div class="modal-header">
+
+						<h4 class="modal-title">Merged Image</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+
+						<a data-flickr-embed="true" title="merged"><img src="image1_1.jpg" width="400" height = "350"  alt="ZhuojunYingResume Final_page-0001"></a>
+
+					</div>
+					<div class="modal-footer">
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="demo" class="carousel slide" data-ride="carousel" data-interval=false style = "margin-top: 20px;">
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+
+		</ul>
+		<div class="carousel-inner bg-dark" style="width:100%; height: 500px !important;">
+			<div class="carousel-item active bg-dark">
+
+				<div style="margin-left: 200px;margin-top: 50px; width: 400px; float: left;">
+					<a data-flickr-embed="true" title="image 1">
+						<img src="image1_1.jpg" width="250" height="250" alt="thermo">
+					</a>
+				</div>
+    		<div style="margin-right: 200px;margin-top: 50px;width: 600px; float: right;">
+					<a data-flickr-embed="true" title="image 1">
+
+						<img src="image1_2.jpg" width="250" height="250" alt="normal">
+					</a>
+				</div>
+
+			</div>
+			<div class="carousel-item bg-dark">
+
+				<div style="margin-left: 200px;margin-top: 50px; width: 400px; float: left;">
+					<a data-flickr-embed="true" title="image 1">
+						<img src="image2_1.jpg" width="250" height="250" alt="thermo">
+					</a>
+				</div>
+    		<div style="margin-right: 200px;margin-top: 50px;width: 600px; float: right;">
+					<a data-flickr-embed="true" title="image 1">
+
+						<img src="image2_2.jpg" width="250" height="250" alt="normal">
+					</a>
+				</div>
+			</div>
+			<div class="carousel-item bg-dark">
+				<div style="margin-left: 200px;margin-top: 50px; width: 400px; float: left;">
+					<a data-flickr-embed="true" title="image 1">
+						<img src="image3_1.jpg" width="250" height="250" alt="thermo">
+					</a>
+				</div>
+    		<div style="margin-right: 200px;margin-top: 50px;width: 600px; float: right;">
+					<a data-flickr-embed="true" title="image 1">
+
+						<img src="image3_2.jpg" width="250" height="250" alt="normal">
+					</a>
+				</div>
+			</div>
+
+
+
+
+
+		</div>
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+
+	</div>
+</body>
+
+</html>
